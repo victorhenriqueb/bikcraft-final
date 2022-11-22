@@ -1,8 +1,10 @@
 /* css global */
 @import url("./global/global.css");
 @import url("./global/header.css");
+@import url("./global/cores.css");
+@import url("./global/componentes.css");
+@import url("./global/tipografia.css");
+
 /* home */
 @import url("./home/introducao.css");
-/* componentes */
-@import url("./utilidades/componentes.css");
-
+@import url("./home/escolha-a-sua.css");

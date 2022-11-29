@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding-bottom: 120px;
 }
 
 .seguro-home h2 {

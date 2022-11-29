@@ -42,6 +42,12 @@
 
 /* Responsivo */
 
+@media (min-width: 1300px) {
+  .depoimento-conteudo p{
+    max-width: 22ch;
+  }
+}
+
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;

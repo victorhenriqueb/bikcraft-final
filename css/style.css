@@ -6,7 +6,6 @@
 @import url("./global/tipografia.css");
 @import url("./global/footer.css");
 
-
 /* home */
 @import url("./home/introducao.css");
 @import url("./home/escolha-a-sua.css");
@@ -14,6 +13,10 @@
 @import url("./home/parceiros.css");
 @import url("./home/depoimento.css");
 @import url("./home/seguros-home.css");
+
+/* termos */
+@import url("./termos/termos.css");
+
 
 
 

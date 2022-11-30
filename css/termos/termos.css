@@ -1,0 +1,28 @@
+.termos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap:48px;
+  margin-top:120px;
+  margin-bottom: 120px;
+}
+
+.termos h2{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.termos p{
+  margin-bottom:20px;
+  max-width: 72ch;
+}
+
+/* responsivo */
+
+@media(max-width:800px){
+  .termos{
+    margin-top:60px;
+    margin-bottom: 60px;
+    gap: 32px;
+  }
+}

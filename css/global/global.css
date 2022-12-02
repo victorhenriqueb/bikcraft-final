@@ -49,6 +49,7 @@ img {
 
 .titulo p{
 margin-bottom: 4px;
+text-transform: uppercase;
 }
 
 @media(max-width:800px){

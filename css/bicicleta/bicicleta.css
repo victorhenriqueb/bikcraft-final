@@ -111,6 +111,10 @@
   .bicicleta-img {
     grid-row: 2;
   }
+  #bicicleta .escolha-conteudo h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
 }
 
 @media (max-width: 420px) {

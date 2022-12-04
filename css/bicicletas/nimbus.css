@@ -1,0 +1,20 @@
+.nimbus-bg{
+background-color:var(--cor-neutra-11) ;
+}
+
+.nimbus-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.nimbus-img-principal{
+  grid-column: 1 / -1;
+  
+}
+
+.nimbus-conteudo-principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

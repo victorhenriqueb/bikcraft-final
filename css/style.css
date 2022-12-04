@@ -14,13 +14,16 @@
 @import url("./home/depoimento.css");
 @import url("./home/seguros-home.css");
 
-/* termos */ 
+/* termos */
 @import url("./termos/termos.css");
 
-/* bicicletas */ 
+/* bicicletas */
 @import url("./bicicletas/bicicletas.css");
 
+/* bicicleta */
+@import url("./bicicleta/bicicleta.css");
 
-
-
+/* seguros (seguros home já possui estilo da parte de seguros) */
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
 

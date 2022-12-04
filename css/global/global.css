@@ -9,7 +9,8 @@ h2,
 h3,
 h4,
 p,
-blockquote {
+blockquote,
+dd {
   margin: 0px;
   padding: 0px;
 }
@@ -41,31 +42,30 @@ img {
   margin-right: auto;
 }
 
-.titulo-bg{
+.titulo-bg {
   background-color: var(--cor-neutra-11);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.titulo p{
-margin-bottom: 4px;
-text-transform: uppercase;
+.titulo > span {
+  margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
-@media(max-width:800px){
-  .titulo-bg{
+@media (max-width: 800px) {
+  .titulo-bg {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .titulo h1{
+  .titulo h1 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.25;
   }
-  .titulo p{
+  .titulo > span {
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400;
   }
 }
-

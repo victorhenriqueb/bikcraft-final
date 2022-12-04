@@ -1,4 +1,4 @@
-.bicicleta-bg {
+.bicicletas-bg {
  background: linear-gradient(to right, var(--cor-neutra-0)30%, var(--cor-neutra-11) 0);
 }
 
@@ -54,15 +54,22 @@ p {
 }
 
 .bicicletas-item .botao-seta {
+  display: flex;
+  align-items: center;
   place-self: end;
 }
 
-.bicicleta-img img {
+.bicicletas-item .botao-seta:hover::after{
+  transform: translateX(4px);
+} 
+
+
+.bicicletas-img img {
   height: 100%;
   object-fit: cover;
 }
 
-.bicicleta-img {
+.bicicletas-img {
   position: relative;
 }
 
@@ -87,7 +94,7 @@ p {
     margin-bottom: 60px;
     gap: 40px;
   }
-  .bicicleta-bg {
+  .bicicletas-bg {
     background: linear-gradient( var(--cor-neutra-0)20%, var(--cor-neutra-11) 0);
 }
 }

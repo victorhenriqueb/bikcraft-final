@@ -9,6 +9,10 @@
   padding-bottom: 120px;
 }
 
+#seguros .seguro-home{
+  padding-top: 60px;
+}
+
 .seguro-home h2 {
   grid-column: 1 / -1;
   padding-top: 60px;
@@ -30,12 +34,12 @@
   grid-column: 1;
 }
 
-.seguro-item li{
+.seguro-item li {
   margin-left: 32px;
   margin-bottom: 20px;
   position: relative;
 }
-.seguro-item-lista li::before{
+.seguro-item-lista li::before {
   content: "";
   display: inline-block;
   background-image: url("../../img/icones/lista.svg");
@@ -68,11 +72,28 @@
   margin-top: -25px;
 }
 
-
 /* Responsivo */
 
-@media(max-width:900px){
-  .seguro-home{
+@media (max-width: 900px) {
+  .seguro-home {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  #seguros .seguro-home {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .seguro-home h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.25;
+    padding-bottom: 0px;
+  }
+  .seguro-home {
+    padding-bottom: 60px;
   }
 }

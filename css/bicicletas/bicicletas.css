@@ -90,9 +90,9 @@ p {
     grid-template-columns: 1fr;
   }
   .bicicletas {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    gap: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 0px;
   }
   .bicicletas-bg {
     background: linear-gradient( var(--cor-neutra-0)20%, var(--cor-neutra-11) 0);

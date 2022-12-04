@@ -59,7 +59,9 @@
 
 @media (max-width: 800px) {
   .escolha-conteudo {
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
   }
   .escolha-fotos {
     gap: 20px;
@@ -95,7 +97,9 @@
     font-size: 1rem;
     line-height: 1.5;
   }
-.escolha-conteudo {
-  padding-bottom: 40px;
-}
+  .escolha-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
 }

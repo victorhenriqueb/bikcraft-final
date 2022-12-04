@@ -11,8 +11,8 @@
 }
 
 .tecnologia-itens {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .tecnologia-subtitulo {
@@ -70,6 +70,16 @@ h3 {
   }
   .tecnologia-img img {
     display: none;
+  }
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia-itens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia a {
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 600px) {

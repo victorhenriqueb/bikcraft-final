@@ -46,8 +46,11 @@
     border-left: initial;
   }
   .parceiros li:nth-child(3),
-  .parceiro li:nth-child(4) {
+  .parceiros li:nth-child(4) {
     border-top: 2px solid var(--cor-neutra-2);
+  }
+  .parceiros {
+    padding-bottom: 60px;
   }
 }
 

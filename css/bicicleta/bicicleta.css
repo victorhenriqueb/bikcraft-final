@@ -31,7 +31,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: start;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 .bicicleta-conteudo-principal p {
@@ -107,10 +107,12 @@
 @media (max-width: 800px) {
   .bicicleta-conteudo-principal {
     grid-template-columns: 1fr;
+    padding-bottom: 60px;
   }
   .bicicleta-img {
     grid-row: 2;
   }
+  
   #bicicleta .escolha-conteudo h2 {
     font-size: 2rem;
     margin-bottom: 16px;
@@ -120,5 +122,8 @@
 @media (max-width: 420px) {
   .bicicleta-acao {
     grid-template-columns: 1fr;
+  }
+  .bicicleta-informacoes{
+  grid-template-columns:1fr;
   }
 }

@@ -17,13 +17,15 @@
 /* termos */
 @import url("./termos/termos.css");
 
-/* bicicletas */
+/* bicicletas (pagina de bicicletas no geral) */
 @import url("./bicicletas/bicicletas.css");
 
-/* bicicleta */
+/* bicicleta (pagina de cada bicicleta expecifica) */
 @import url("./bicicleta/bicicleta.css");
+@import url("./bicicleta/bicicleta-seguro.css");
 
 /* seguros (seguros home já possui estilo da parte de seguros) */
 @import url("./seguros/vantagens.css");
 @import url("./seguros/perguntas.css");
+
 

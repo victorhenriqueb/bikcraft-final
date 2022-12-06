@@ -81,24 +81,14 @@ h3 {
   .tecnologia a {
     margin-bottom: 40px;
   }
-}
-@media (max-width: 600px) {
-  .tecnologia-lista {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 500px) {
   .tecnologia h2 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.25;
   }
   .tecnologia-subtitulo {
     font-size: 1.125rem;
     line-height: 1.33;
-  }
-  .escolha-conteudo {
-    padding-bottom: 40px;
   }
   .tecnologia-paragrafo {
     font-size: 1.125rem;
@@ -107,5 +97,15 @@ h3 {
   .tecnologia-link {
     font-size: 1.125rem;
     line-height: 1.33;
+  }
+}
+@media (max-width: 600px) {
+  .tecnologia-lista {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .escolha-conteudo {
+    padding-bottom: 40px;
   }
 }

@@ -1,0 +1,117 @@
+#contato {
+  background: linear-gradient(var(--cor-neutra-11) 500px, var(--cor-neutra-1) 0px);
+}
+
+.contato-geral {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contato,
+.contato-mensagem {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.contato {
+  background-color: var(--cor-neutra-12);
+  border-radius: 5px 0 0 5px;
+}
+
+.contato-mensagem {
+  border-radius: 0 5px 5px 0;
+  background-color: var(--cor-neutra-0);
+}
+
+.contato h3 {
+  margin-bottom: 60px;
+}
+
+.contato ul {
+  margin-left: 28px;
+  margin-bottom: 32px;
+}
+
+.contato li {
+  margin-bottom: 8px;
+}
+
+.lista-contato-comunicacao li,
+.lista-contato-endereco li {
+  position: relative;
+}
+
+.lista-contato-comunicacao li:last-child {
+  margin-top: 32px;
+}
+
+.lista-contato-comunicacao a:hover {
+  color: var(--cor-neutra-0);
+}
+
+.lista-contato-endereco li:first-child::before {
+  background-image: url("../../img/icones/local.svg");
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -26px;
+  top: 2px;
+}
+
+.lista-contato-comunicacao li:last-child::before {
+  background-image: url("../../img/icones/telefone.svg");
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -26px;
+  top: 2px;
+}
+
+.lista-contato-comunicacao li:first-child::before {
+  background-image: url("../../img/icones/email.svg");
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -26px;
+  top: 2px;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 32px;
+  padding-top: 28px;
+}
+
+.contato-redes a {
+  display: block;
+  max-width: max-content;
+}
+
+/* Responsivo */
+
+@media (max-width: 800px) {
+  .contato-geral {
+    grid-template-columns: 1fr;
+  }
+  .contato,
+  .contato-mensagem {
+    padding: 20px;
+  }
+  .contato {
+    border-radius: 5px 5px 0 0;
+  }
+  .contato-mensagem {
+    border-radius: 0 0 5px 5px;
+  }
+  .contato h3 {
+    margin-bottom: 32px;
+  }
+  .contato-redes {
+    padding-top: 8px;
+  }
+}

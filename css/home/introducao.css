@@ -55,6 +55,8 @@
   }
 }
 
+/* Responsivo */
+
 @media (max-width: 500px) {
 .introducao h1{
   font-weight: 600;

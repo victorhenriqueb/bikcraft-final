@@ -3,6 +3,7 @@
 @import url("./global/header.css");
 @import url("./global/cores.css");
 @import url("./global/componentes.css");
+@import url("./global/formulario.css");
 @import url("./global/tipografia.css");
 @import url("./global/footer.css");
 
@@ -27,5 +28,9 @@
 /* seguros (seguros home já possui estilo da parte de seguros) */
 @import url("./seguros/vantagens.css");
 @import url("./seguros/perguntas.css");
+
+/* contato */
+@import url("./contato/contato.css");
+@import url("./contato/contato-loja.css");
 
 

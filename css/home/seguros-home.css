@@ -84,15 +84,15 @@
   #seguros .seguro-home {
     padding-bottom: 60px;
   }
+  .seguro-home h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 500px) {
-  .seguro-home h2 {
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 1.25;
-    padding-bottom: 0px;
-  }
   .seguro-home {
     padding-bottom: 60px;
   }

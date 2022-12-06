@@ -4,6 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#contato body{
+  background-color: var(--cor-neutra-1);
+}
+
 h1,
 h2,
 h3,
@@ -15,7 +19,7 @@ dd {
   padding: 0px;
 }
 
-ul {
+ul, address {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -52,6 +56,8 @@ img {
   margin-bottom: 4px;
   text-transform: uppercase;
 }
+
+/* Responsivo */
 
 @media (max-width: 800px) {
   .titulo-bg {

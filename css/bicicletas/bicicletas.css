@@ -14,6 +14,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
 .bicicletas-item h3::before {

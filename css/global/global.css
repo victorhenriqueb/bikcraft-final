@@ -52,6 +52,10 @@ img {
   padding-bottom: 60px;
 }
 
+.titulo{
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .titulo > span {
   margin-bottom: 4px;
   text-transform: uppercase;

@@ -6,6 +6,7 @@
 @import url("./global/formulario.css");
 @import url("./global/tipografia.css");
 @import url("./global/footer.css");
+@import url("./global/animacao.css");
 
 /* home */
 @import url("./home/introducao.css");
@@ -36,5 +37,7 @@
 
 /* orçamento */
 @import url("./orcamento/orcamento.css");
+
+
 
 

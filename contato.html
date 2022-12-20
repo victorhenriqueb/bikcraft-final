@@ -31,7 +31,7 @@
 
   <main>
     <div class="titulo-bg">
-      <div class="titulo container">
+      <div class="titulo container fadeInDown" data-anime="200">
         <span class="font-2-l-b cn-05">respostas em até 24h</span>
         <h1 class="font-1-xxl cn-00">nosso contato<span class="cp-01">.</span></h1>
       </div>
@@ -39,13 +39,13 @@
 
     <div class="contato-geral container">
       <section class="contato" aria-label="contato">
-        <h3 class="font-1-m cn-00">Loja Online</h3>
-        <ul class="lista-contato-endereco">
+        <h3 class="font-1-m cn-00 fadeInDown" data-anime="400">Loja Online</h3>
+        <ul class="lista-contato-endereco fadeInDown" data-anime="400">
           <li class="font-2-s cn-04">Rua Ali Perto, 35</li>
           <li class="font-2-s cn-04">Rio de Janeiro - RJ</li>
           <li class="font-2-s cn-04">Brasil - Terra - Vita Láctea</li>
         </ul>
-        <address class="lista-contato-comunicacao">
+        <address class="lista-contato-comunicacao fadeInDown" data-anime="400">
           <ul>
             <li class="font-2-s cn-04"><a href="mailto:vendas@bikcraft.com">vendas@bikcraft.com</a>
             </li>
@@ -55,7 +55,7 @@
             </li>
           </ul>
         </address>
-        <ul class="contato-redes">
+        <ul class="contato-redes fadeInDown" data-anime="600">
           <li><a href="./"><img src="./img/redes/instagram-p.svg" width="32" height="32" alt="icone instagram"></a></li>
           <li><a href="./"><img src="./img/redes/facebook-p.svg" width="32" height="32" alt="icone facebook"></a></li>
           <li><a href="./"><img src="./img/redes/youtube-p.svg" width="32" height="32" alt="icone youtube"></a></li>
@@ -63,33 +63,33 @@
       </section>
       <section class="contato-mensagem" aria-label="formulario">
         <form class="form" action="./contato.html">
-          <div>
+          <div class="fadeInDown" data-anime="400">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome">
           </div>
-          <div>
+          <div class="fadeInDown" data-anime="400">
             <label for="telefone">Telefone</label>
             <input type="text" id="telefone" name="telefone" placeholder="(21) 99999-9999">
           </div>
-          <div class="col-2">
+          <div class="col-2 fadeInDown" data-anime="400">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="seuemail@email.com">
           </div>
-          <div class="col-2">
+          <div class="col-2 fadeInDown" data-anime="400">
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
-          <button class="botao ">Enviar Mensagem</button>
+          <button class="botao fadeInDown" data-anime="600">Enviar Mensagem</button>
         </form>
       </section>
     </div>
   </main>
 
   <article class="contato-loja container">
-    <h2 class="font-1-xxl cn-11">lojas locais<span class="cp-01">.</span></h2>
-    <div class="contato-loja-cidade">
+    <h2 class="font-1-xxl cn-11 fadeInDown" data-anime="200">lojas locais<span class="cp-01">.</span></h2>
+    <div class="contato-loja-cidade fadeInDown" data-anime="400">
       <img src="./img/lojas/rj.jpg" width="1120" height="520" alt="mapa loja rio de janeiro">
-      <div class="contato-loja-dados">
+      <div class="contato-loja-dados fadeInDown" data-anime="600">
         <h3 class="font-1-xl cn-12">Rio de Janeiro</h3>
         <ul>
           <li class="font-2-s cn-08">Rua Ali Perto, 25</li>
@@ -100,9 +100,9 @@
         <span class="font-1-s cn-12 loja-horario">08-18h de seg à dom</span>
       </div>
     </div>
-    <div class="contato-loja-cidade">
+    <div class="contato-loja-cidade fadeInDown" data-anime="400">
       <img src="./img/lojas/sp.jpg" width="1120" height="520" alt="mapa loja São Paulo">
-      <div class="contato-loja-dados">
+      <div class="contato-loja-dados fadeInDown" data-anime="600">
         <h3 class="font-1-xl cn-12">São Paulo</h3>
         <ul>
           <li class="font-2-s cn-08">Rua Ali Perto, 25</li>
@@ -146,5 +146,6 @@
       <p class="font-2-m cn-06 footer-direitos">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>

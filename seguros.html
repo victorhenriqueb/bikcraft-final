@@ -31,35 +31,35 @@
 
   <main class="seguro-home-bg">
     <div class="titulo-bg">
-      <div class="titulo container">
+      <div class="titulo container fadeInDown" data-anime="200">
         <span class="font-2-l-b cn-05">escolha o seguro</span>
         <h1 class="font-1-xxl cn-00">você seguro<span class="cp-01">.</span></h1>
       </div>
     </div>
     <div class="seguro-home container">
       <div class="seguro-item">
-        <h3 class="cn-06 font-1-xl">Prata</h3>
-        <div class="seguro-item-preco">
+        <h3 class="cn-06 font-1-xl fadeInDown" data-anime="400">Prata</h3>
+        <div class="seguro-item-preco fadeInDown" data-anime="400">
           <span class="font-1-xl cn-00">R$199</span>
           <span class="font-1-xs cn-06 mensal">mensal </span>
         </div>
-        <ul class="seguro-item-lista">
+        <ul class="seguro-item-lista fadeInDown" data-anime="400">
           <li class="font-2-m cn-00">Duas trocas por ano</li>
           <li class="font-2-m cn-00">Assistência técnica</li>
           <li class="font-2-m cn-00">Suporte 08h às 18h</li>
           <li class="font-2-m cn-00">Cobertura estadual</li>
         </ul>
         <div class="botao-item">
-          <a class="botao-neutro" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
+          <a class="botao-neutro fadeInDown" data-anime="600" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
         </div>
       </div>
       <div class="seguro-item">
-        <h3 class="font-1-xl cp-01">Ouro</h3>
-        <div class="seguro-item-preco">
+        <h3 class="font-1-xl cp-01 fadeInDown" data-anime="400">Ouro</h3>
+        <div class="seguro-item-preco fadeInDown" data-anime="400">
           <span class="font-1-xl cn-00">R$299</span>
           <span class="font-1-xs cn-06 mensal">mensal </span>
         </div>
-        <ul class="seguro-item-lista">
+        <ul class="seguro-item-lista fadeInDown" data-anime="400">
           <li class="font-2-m cn-00">Cinco trocas por ano</li>
           <li class="font-2-m cn-00">Assistência especial</li>
           <li class="font-2-m cn-00">Suporte 24h</li>
@@ -68,7 +68,7 @@
           <li class="font-2-m cn-00">Acesso ao Club Bikcraft</li>
         </ul>
         <div class="botao-item">
-          <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
+          <a class="botao fadeInDown" data-anime="600" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
         </div>
       </div>
     </div>
@@ -76,8 +76,8 @@
 
   <article class="vantagens-bg">
     <div class="vantagens container">
-      <h2 class="font-1-xxl cn-00">nossas vantagens<span class="cp-01">.</span></h2>
-      <ul>
+      <h2 class="font-1-xxl cn-00 fadeInDown" data-anime="200">nossas vantagens<span class="cp-01">.</span></h2>
+      <ul class="fadeInDown" data-anime="400">
         <li>
           <img src="./img/icones/eletrica.svg" width="32" height="32" alt="">
           <h3 class="font-1-l cn-00">Reparo Elétrico</h3>
@@ -113,8 +113,8 @@
   </article>
 
   <article class="perguntas container">
-    <h2 class="font-1-xxl cn-11">perguntas frequentes<span class="cp-01">.</span></h2>
-    <dl>
+    <h2 class="font-1-xxl cn-11 fadeInDown" data-anime="200">perguntas frequentes<span class="cp-01">.</span></h2>
+    <dl class="fadeInDown" data-anime="400">
       <div>
         <dt><button class="font-1-m cn-11" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
         <dd id="pergunta1" class="font-2-m cn-09 ativa">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
@@ -178,5 +178,6 @@
       <p class="font-2-m cn-06 footer-direitos">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
